@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &153142939441259784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153142939441259786}
+  - component: {fileID: 153142939441259787}
+  m_Layer: 0
+  m_Name: AUDIO_MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &153142939441259786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153142939441259784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3558412, y: -0.40796605, z: 116.875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &153142939441259787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153142939441259784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af31aebbcf3b911459cb455a6dfb7d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BouncyHit
+    audioClip: {fileID: 8300000, guid: 7e19cc2bd035ba648aa576065e67a68d, type: 3}
+    pitch: 1.5
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Death1
+    audioClip: {fileID: 8300000, guid: 1eb0f1f67d40c2e44ae28eb81fefad63, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Death2
+    audioClip: {fileID: 8300000, guid: 138ba3a49e380cc46b8092410cc43d42, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Death3
+    audioClip: {fileID: 8300000, guid: bd1194249113eca40a5ad2dd98104cba, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Death4
+    audioClip: {fileID: 8300000, guid: 262325af3b8bac642b452022c87b048c, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Death5
+    audioClip: {fileID: 8300000, guid: a8ffd77a9394b1c4d9e5a8fc40e5f82d, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: MainTheme1
+    audioClip: {fileID: 8300000, guid: 851fa8050f2a86e4f846bfb3a08a4d90, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+  - name: MainTheme2
+    audioClip: {fileID: 8300000, guid: 053d62fcea746624083484e6b8f75bfd, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+  - name: MainTheme3
+    audioClip: {fileID: 8300000, guid: 09f53716fac132d4d97a8ecf5fb1c3ad, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+  - name: Transition
+    audioClip: {fileID: 8300000, guid: dbb8985d25d85d14682cadd55c644a58, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: PickKey
+    audioClip: {fileID: 8300000, guid: 00b9fe140e96cc741939745a76ae30fa, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PickStar
+    audioClip: {fileID: 8300000, guid: 93279892e2a5d364187ae5660949a7d2, type: 3}
+    pitch: 1
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: TouchColor
+    audioClip: {fileID: 8300000, guid: a2048fa9d0938584eb0bbdb496b2fb7b, type: 3}
+    pitch: 1
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    audioClip: {fileID: 8300000, guid: 95e3435221662c243b5178587cb86130, type: 3}
+    pitch: 1
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    audioClip: {fileID: 8300000, guid: f48532a2e07c0a345b7958298201ee40, type: 3}
+    pitch: 1
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
